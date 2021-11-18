@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #0e0e0e;
+  overflow: auto;
+  z-index: ;
+}
+.i{
+  position: relative;
+  padding: 1%;
+  padding-bottom: 0;
+  width: 27vw;
+  height: 27vw;
+  object-fit: cover;
+  border-radius: 50%;
+  z-index: 99;
+}
+.card{
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 80vw;
+  height: 70vh;
+  border-radius: 4%;
+  background-color: white;
+  overflow: auto;
+  display: block;
+  z-index: ;
+}
+.box{
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 12vw;
+  background-color: #1e88d1;
+  z-index: 1;
+}/*
+.pp{
+  
+}
+.image{
+  background: url(node-js.pl) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 20vw;
+  height: 17vh;
+  border-radius: 7px;
+}
+*/
+ .name{
+   font-family: 'Inconsolata', sans-serif;
+   font-size: 5vw;
+   color: black;
+   z-index: ;
+ }  
+.titl{
+ font-family: 'Inconsolata', monospace;
+ padding: 3%;
+ font-size: 4vw;
+  color: #636363;
+  z-index: ;
+}
+.titli{
+ font-family: 'Inconsolata', monospace;
+ padding: 1%;
+ padding-top: 5%;
+ font-size: 5vw;
+  color: #636363;
+  z-index: ;
+}
+a{
+  text-decoration: none;
+}
